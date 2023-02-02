@@ -36,10 +36,10 @@ int quicksortMiddle(std::vector<int> &v, int left, int right)
 
     /* recursion */
     if (left < j)
-        quicksortMiddle(v, left, j);
+        comparisons += quicksortMiddle(v, left, j);
     if (i < right)
     {
-        quicksortMiddle(v, i, right);
+       comparisons += quicksortMiddle(v, i, right);
     }
     return comparisons;
 }
