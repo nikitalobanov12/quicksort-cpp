@@ -1,0 +1,32 @@
+lab 4
+step 1. 
+
+quicksort: 
+- make 2 versions
+- first position and middle position as a pivot 
+- keep track of the number of comparisons each function does.
+
+step 2. 
+
+- ask the user for a size. 
+
+test 1: Best-case scenario
+- 1 vector with that size in ascending order
+- sort the vector  with both versions of the quicksort
+- return the number of comparisons for each quicksort
+
+test 2: Random Scenario
+- 2 random vectors of that size
+- sort one per each quicksort method (method 1 vector 1, method 2 vector 2)
+- average out the number of comparisons that it takes over 1000 times
+
+
+
+test 1 (ascending order vector) results:
+
+beggining-partition: (n-1)! comparisons
+middle-partition: n-1 comparisons
+
+test 2 (random vector) results: 
+
+beggining-partition quick sort always requires more comparisons then the middle-partition quick sort
